@@ -102,7 +102,8 @@ class _HomeBodyState extends State<HomeBody> {
     }
 
     displayShowcase().then((status) {
-      if (status) {
+//      if (status) {
+      if (1==1) {
         ShowCaseWidget.startShowCase(context, [
           _optionsKey,
           _cartIndicatorKey,
